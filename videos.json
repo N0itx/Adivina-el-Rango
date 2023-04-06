@@ -1,35 +1,31 @@
-[
-    {
-      src: "2ANl3JLzaSI",
-      rango: "Hierro",
-      peak: "Diamante",
-      user: "PepitoGamer12",
-      kdratio: 1.2,
-      headshot: 50,
-      winrate: 10,
-      main: "Reyna",
-      visto: false
-    },
-    {
-      src: "_r7ojW54YsY",
-      rango: "Bronce",
-      peak: "Ascendente",
-      user: "BenitoKamela48",
-      kdratio: 0.1,
-      headshot: 10,
-      winrate: 50,
-      main: "Skye",
-      visto: false
-    },
-    {
-      src: "WfnKYCMMsgc",
-      rango: "Radiante",
-      peak: "Radiante",
-      user: "Elmasteton83",
-      kdratio: 3,
-      headshot: 80,
-      winrate: 100,
-      main: "Viper",
-      visto: false
-    }
-  ]
+[{
+  "src": "2ANl3JLzaSI",
+  "rango": "Hierro",
+  "peak": "Diamante",
+  "user": "PepitoGamer12",
+  "kdratio": 1.2,
+  "headshot": 50,
+  "winrate": 10,
+  "main": "Reyna",
+  "visto": false,
+}, {
+  "src": "_r7ojW54YsY",
+  "rango": "Bronce",
+  "peak": "Ascendente",
+  "user": "BenitoKamela48",
+  "kdratio": 0.1,
+  "headshot": 10,
+  "winrate": 50,
+  "main": "Skye",
+  "visto": false,
+}, {
+  "src": "WfnKYCMMsgc",
+  "rango": "Radiante",
+  "peak": "Radiante",
+  "user": "Elmasteton83",
+  "kdratio": 3,
+  "headshot": 80,
+  "winrate": 100,
+  "main": "Viper",
+  "visto": false,
+}]

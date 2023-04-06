@@ -2,7 +2,6 @@ $(document).ready(function() {
   // Lista de videos con sus rangos correspondientes
   var videos = [
     {
-      // src: "videos/video1.mp4",
       src: "2ANl3JLzaSI",
       rango: "Hierro",
       peak: "Diamante",
@@ -14,7 +13,6 @@ $(document).ready(function() {
       visto: false,
     },
     {
-      // src: "videos/video2.mp4",
       src: "_r7ojW54YsY",
       rango: "Bronce",
       peak: "Ascendente",
@@ -26,7 +24,6 @@ $(document).ready(function() {
       visto: false,
     },
     {
-      // src: "videos/video3.mp4",
       src: "WfnKYCMMsgc",
       rango: "Radiante",
       peak: "Radiante",
@@ -51,10 +48,6 @@ $(document).ready(function() {
       return !video.visto;
     });
     if (videosNoVistos.length === 0) {
-      // alert("Felicidades! Has visto todos los videos.");
-      // $('.container').fadeOut('slow', function() {
-      //   $(this).remove();
-      // });
       $('body').append(`<div class="final-box"><h1>ESOS FUERON TODOS LOS CLIPS <p>TOTAL: ${puntos}/${videos.length}</p> </h1><img src="sources/baile.webp"></div>`)
       return;
     }
@@ -63,9 +56,6 @@ $(document).ready(function() {
 
     // Mostrar el video en el contenedor correspondiente
     var videoContainer = $("#video-container");
-    // videoContainer.html(
-    //   '<video width="640" height="360" controls><source src="' + video.src + '"></video>'
-    // );
     videoContainer.html(
       `<iframe width=640 height="360" src="https://www.youtube.com/embed/${video.src}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share" allowfullscreen></iframe>`
     );
@@ -108,7 +98,6 @@ $(document).ready(function() {
       }
       generarResultado(videoActual, rangoSeleccionado, checkcolor, puntos);
       videoActual.visto = true;
-      // mostrarVideo();
     } else {
       alert("Por favor selecciona un rango antes de puntuar.");
     }
@@ -121,9 +110,6 @@ $(document).ready(function() {
   $("#check-container-next").click(function() {
     mostrarVideo();
   });
-
-  // Mostrar el primer video al cargar la página
-  mostrarVideo();
 
   // Muestra la pantalla de resultado
   function generarResultado (info, rngslec, check, puntos) {
@@ -185,5 +171,8 @@ $(document).ready(function() {
       });
     });
   }
-});
 
+  // Mostrar el primer video al cargar la página
+  mostrarVideo();
+  
+});

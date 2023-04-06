@@ -1,4 +1,4 @@
-[{
+{
   // src: "videos/video1.mp4",
   src: "2ANl3JLzaSI",
   rango: "Hierro",
@@ -31,4 +31,4 @@
   winrate: 100,
   main: "Viper",
   visto: false,
-}]
+}

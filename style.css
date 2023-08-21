@@ -316,7 +316,7 @@ button:hover {
 
 /*========== RESPONSIVE ==========*/
 
-/*@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1500px) {
   .container {
     transform: scale(1.1) translateY(2em);
   }
@@ -357,4 +357,4 @@ button:hover {
   .container {
     transform: scale(4) translateY(14em);
   }
-}*/
+}
